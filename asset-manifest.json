@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/AmazonClone/static/css/main.3ff105f3.css",
+    "main.js": "/AmazonClone/static/js/main.f403a9f7.js",
+    "static/media/dailyneeds.jpg": "/AmazonClone/static/media/dailyneeds.1d34083ad175be7d7460.jpg",
+    "static/media/kitchen.jpg": "/AmazonClone/static/media/kitchen.731aefc65b4dd1be28f8.jpg",
+    "static/media/makeup.jpg": "/AmazonClone/static/media/makeup.f23225b56a6f720fbc1f.jpg",
+    "static/media/mobiles.jpg": "/AmazonClone/static/media/mobiles.e473371b101884afce0e.jpg",
+    "static/media/clothing.jpg": "/AmazonClone/static/media/clothing.d0506f3b34714eaa0e3b.jpg",
+    "index.html": "/AmazonClone/index.html",
+    "main.3ff105f3.css.map": "/AmazonClone/static/css/main.3ff105f3.css.map",
+    "main.f403a9f7.js.map": "/AmazonClone/static/js/main.f403a9f7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ff105f3.css",
+    "static/js/main.f403a9f7.js"
+  ]
+}
