@@ -1,0 +1,13 @@
+.card{
+    background-color: white;
+    color: white;
+}
+.home__row1{
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+  justify-content: center;
+  width: 100%;
+}

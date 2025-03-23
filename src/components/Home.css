@@ -1,0 +1,83 @@
+.home {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1500px;
+}
+
+.home__image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  filter: brightness(1.0);
+  transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+  z-index: -1;
+  margin-bottom: -100px;
+}
+
+.home__imageContainer {
+  position: relative;
+  display: inline-block;
+  padding-top: 0; /* Ensure there's no top padding in the container */
+}
+
+.home__arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.home__arrow--left {
+  left: 10px;
+}
+
+.home__arrow--right {
+  right: 10px;
+}
+
+.a-icon {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  line-height: 36px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.a-icon:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.a-icon-previous-rounded::before {
+  content: '<';
+}
+
+.a-icon-next-rounded::before {
+  content: '>';
+}
+
+.a-icon-alt {
+  position: absolute;
+  left: -9999px; /* Screen-reader-only text for accessibility */
+}
+
+.home__row {
+  display: flex;
+  position: absolute;
+  bottom: -10px; 
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+  justify-content: center;
+  width: 100%;
+}

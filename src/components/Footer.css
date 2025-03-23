@@ -1,0 +1,17 @@
+.footer-container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-top: 1px solid #1f2937; /* This corresponds to border-neutral-900 in Tailwind */
+  }
+  
+  .footer-content {
+    text-align: center;
+  }
+  
+  .footer-text {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem; /* Corresponds to text-sm in Tailwind */
+    color: #6b7280; /* This corresponds to text-gray-400 in Tailwind */
+  }
+  
