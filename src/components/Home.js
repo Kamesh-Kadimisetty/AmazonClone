@@ -47,17 +47,17 @@ const Home = () => {
       <div className='home__row'>
         <Product
           id="2324"
-          title="Apple MacBook Air Laptop with M2 chip: 13.6-inch Liquid Retina Display, 16GB RAM, 256GB SSD Storage, Backlit Keyboard, 1080p FaceTime HD Camera. Works with iPhone and iPad; Space Gray"
+          title="Apple MacBook Air Laptop with M2 chip: 13.6-inch Liquid Retina Display, 16GB RAM, 256GB SSD Storage, Backlit Keyboard, 1080p FaceTime HD Camera. Works with iPhone and iPad, Space Gray"
           price={99999}
           rating={5}
           image="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp14-spaceblack-cto-hero-202410?wid=840&hei=504&fmt=jpeg&qlt=90&.v=1731525368099"
         />
         <Product
           id="2324"
-          title="Apple MacBook Air Laptop with M2 chip: 13.6-inch Liquid Retina Display, 16GB RAM, 256GB SSD Storage, Backlit Keyboard, 1080p FaceTime HD Camera. Works with iPhone and iPad; Space Gray"
-          price={89000}
+          title="ASUS [Smartchoice ROG Strix G16, 16 (40.64cm) FHD+ 165Hz, 13th Gen Core i7-13650HX,Gaming Laptop(16GB RAM/1TB SSD/NVIDIA GeForce RTX 4060 /Windows 11/Office 21/Eclipse Gray"
+          price={134900}
           rating={5}
-          image="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp14-spaceblack-cto-hero-202410?wid=840&hei=504&fmt=jpeg&qlt=90&.v=1731525368099"
+          image="https://m.media-amazon.com/images/I/61bwqXfWiaL._SX679_.jpg"
         />
       </div>
     </div>
